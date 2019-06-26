@@ -1,0 +1,235 @@
+/*switch*/
+.cmn-toggle {
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+.cmn-toggle + label {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input.cmn-toggle-round-flat + label {
+  padding: 2px;
+  width: 120px;
+  height: 40px;
+  background-color: #dddddd;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s;
+}
+input.cmn-toggle-round-flat + label:before, input.cmn-toggle-round-flat + label:after {
+  display: block;
+  position: absolute;
+  content: "";
+}
+input.cmn-toggle-round-flat + label:before {
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  background-color: #fff;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
+  border-radius: 60px;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+  -o-transition: background 0.4s;
+  transition: background 0.4s;
+}
+input.cmn-toggle-round-flat + label:after {
+  top: 4px;
+  left: 4px;
+  bottom: 4px;
+  width: 52px;
+  background-color: #dddddd;
+  -webkit-border-radius: 52px;
+  -moz-border-radius: 52px;
+  -ms-border-radius: 52px;
+  -o-border-radius: 52px;
+  border-radius: 52px;
+  -webkit-transition: margin 0.4s, background 0.4s;
+  -moz-transition: margin 0.4s, background 0.4s;
+  -o-transition: margin 0.4s, background 0.4s;
+  transition: margin 0.4s, background 0.4s;
+}
+input.cmn-toggle-round-flat:checked + label {
+  background-color: #8ce196;
+}
+input.cmn-toggle-round-flat:checked + label:after {
+  margin-left: 60px;
+  background-color: #8ce196;
+}
+/*switch*/
+a {
+  color: #00B7FF;
+}
+
+.uploadFileSection p{
+  color: gray;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 185px;
+}
+
+.uploadFileSection{
+  border: 5px dotted gray;
+  height: 200px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#progressBar{
+  height: 35px;
+  border-radius: 5px;
+}
+
+.all_file_info {
+  text-align: center;
+}
+
+.all_file_info h3{
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.image_container{
+  border: 1px solid #454D55;
+  min-height: 200px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.quote_label{
+  color: #68737D;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.image_container{
+  padding: 20px;
+}
+
+.custom_cart_btn,.custom_cart_btn:hover{
+  background: #454D55;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 80px;
+}
+
+.price h1{
+  color: #454D55;
+  font-weight: normal;
+  margin: 30px 0px;
+}
+
+.custom_link, .custom_link:hover{
+  color: #454D55;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 20px 0px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.additional_notes{
+  padding: 10px;
+}
+
+.multiplication_symbol{
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.uniteTitle, .resultDimension{
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #68737D;
+  line-height: 40px;
+  text-transform: uppercase;
+}
+
+.notification{
+  color: brown;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#imageHeight,#imageWidth{
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.price_calculation_issue{
+  color: brown;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+svg{
+  align-content: center;
+}
+
+#quoteForm{
+  overflow-y: scroll;
+}
+
+#svg_data_content{
+  display: block;
+  margin: auto;
+}
+
+.custom_quote_section{
+  padding-bottom: 10px;
+}
+
+#customQuoteForm .subtitle{
+  color: #687394;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  font-weight: normal;
+  line-height: 25px;
+}
+
+#uploadFileCustomQuote{
+  background-color: #454D55;
+  color: white;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#filenameLink{
+  font-size: 14px;
+}
+
+.custom_request{
+  margin-bottom: 20px;
+}
+
+#customQuoteForm{
+  overflow-y: scroll;
+}

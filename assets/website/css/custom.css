@@ -1,0 +1,387 @@
+/* your styles go here */
+nav.navbar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a, a:hover{
+    color: #FF6C00;
+}
+
+section {
+    padding: 70px 0;
+}
+
+.btn-link:hover,.btn-link:focus {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #FF6A00;
+}
+
+a.link-url,a.link-url:hover{
+    color: #FF6A00;
+    font-size: 16px;
+}
+
+.instantQuoteToolContent{
+    padding: 40px 0px;
+}
+
+.btn-link {
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: #FF6A00;
+}
+
+ul>li>strong>a{
+    color: #FF6A00 !important;
+}
+
+nav.navbar a.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.white-bg{
+    background: #ffffff !important;
+}
+
+.item{
+    cursor: pointer;
+    transition: .2s;
+}
+
+.border-style{
+    border: 1px solid #666;
+}
+
+.item>.image_content{
+    padding: 30px 0px;
+}
+
+.item>.content>.h5{
+    font-size: 1rem;
+}
+.item>.content>span{
+    padding: 15px;
+}
+
+.market_content{
+    padding: 25px 0px;
+}
+
+.market_title h5{
+    font-size: 18px;
+    padding: 5px 0px;
+}
+
+.video-caption{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 25px 0px;
+}
+
+.page-image-bg{
+    background-position: center center !important;
+    background-size: cover !important;
+}
+
+.equipment_image{
+    height: 430px;
+}
+
+.latest_work img{
+    width: 100%;
+}
+
+.latest_work a{
+    display: contents;
+}
+
+.gallery_thumb:hover .overlay{
+    display: block;
+}
+
+.gallery_thumb .overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: none;
+    text-align: center;
+    line-height: 11;
+    font-size: 24px;
+}
+
+.gallery_thumb{
+    margin: 20px 0px;
+    position: relative;
+}
+
+.overlay>i{
+    color: white;
+}
+
+#video_gallery{
+    padding: 45px 0;
+}
+
+.video_gallery{
+    margin: 20px 0px;
+}
+
+.active,.text-primary{
+    color: #FF6A00 !important;
+}
+.cart-no,.btn-template{
+    background-color: #FF6A00 !important;
+    border: 1px solid #FF6A00 !important;
+}
+
+section.checkout .nav-link.active{
+    background-color: #FF6A00 !important;
+    color: #fff !important;
+}
+
+section.checkout .tab-block a:hover{
+    /*color: #FF6A00 !important;*/
+    /*border: 1px solid #FF6A00 !important;*/
+}
+
+.checkbox-template + label::after {
+    background-color: #FF6A00 !important;
+}
+
+.form-control:focus{
+    border: 1px solid #FF6A00 !important;
+}
+
+nav.navbar a.nav-link:hover{
+    color: #FF6A00 !important;
+}
+
+.card-header a:hover{
+    border: none;
+}
+
+#metalType:focus,#thicknessValue:focus{
+    border-radius: 0px;
+    padding: 5px;
+    border: 1px solid #ddd !important;
+}
+
+#metalType,#thicknessValue{
+    border-radius: 0px;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.btn-template,.btn-template:hover {
+    border-radius: 0px !important;
+    color: #fff !important;
+}
+
+.btn-template-outlined{
+    border-radius: 0px !important;
+}
+
+
+.form-control {
+    padding: 4px 9px;;
+    border-radius: 0px;
+}
+
+.custom_cart_btn{
+    border-radius: 0px;
+    background: #FF6A00;
+    border: 1px solid #FF6A00;
+    padding: 10px 45px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.custom_cart_btn{
+    background: #FF6A00 !important;
+    padding: 10px 65px;
+    font-size: 14px;
+    border: 1px solid #FF6A00;
+}
+
+.custom_request:hover,.custom_cart_btn:hover{
+    background: #FF6A00 !important;
+    padding: 10px 65px;
+    font-size: 14px;
+    border: 1px solid #FF6A00;
+}
+
+#uploadFileCustomQuote{
+    background: #FF6A00 !important;
+    border-radius: 0;
+}
+
+#backToUpload:hover,.btn-template-outlined:hover{
+    color: #FF6A00 !important;
+    border: 1px solid #FF6A00 !important;
+}
+
+#backToUpload{
+    margin: 30px 0px;
+}
+
+.btn-outline-light:hover{
+    background: transparent;
+    color: #FF6A00 !important;
+    border: 1px solid #FF6A00 !important;
+}
+.btn-outline-light{
+    border-radius: 0px;
+}
+
+.item:hover .icon{
+    color: #FF6A00 !important;
+}
+
+#next_button_checkout{
+    color: #fff !important;
+}
+
+.cart-product .price{
+    font-size: 14px !important;
+}
+.cart-product .text strong{
+    font-size: 14px;
+}
+
+.inc-btn:hover{
+    text-decoration: none;
+}
+
+.contact-icon {
+    font-size: 3rem;
+    color: #000;
+}
+
+section.checkout .nav-item {
+    width: 33.33% !important;
+    height: 100%;
+}
+
+.site-links ul li a:hover{
+    color: #FF6A00 !important;
+}
+
+#address p{
+    color: red;
+}
+
+#paypal_payment_btn{
+    width: 300px;
+    padding: 15px 15px;
+}
+
+.big-btn{
+    width: 300px;
+    padding: 15px 15px;
+}
+
+label.form-label {
+    padding-left: 0px;
+    color: #333;
+}
+
+.forgot-pass-link{
+    margin-bottom: 0;
+    font-size: 16px;
+}
+.forgot-pass-link a{
+    color: #FF6A00 !important;
+    text-decoration: none;
+}
+.create-account-link{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+.create-account-link a{
+    color: #FF6A00 !important;
+    text-decoration: none;
+}
+
+#user-menu{
+    margin: 0;
+}
+
+.common_dropdown a {
+    color: #38404A;
+    transition: .5s;
+    padding: 10px 20px !important;
+    display: block;
+    margin-bottom: 0 !important;
+}
+
+#user-menu a{
+    color: #38404A;
+    transition: .5s;
+    padding: 10px 20px;
+    display: block;
+    margin: 0;
+}
+#user-menu a:hover, .common_dropdown a:hover{
+    color: #FF6A00;
+    background: white !important;
+}
+
+section.checkout .card{
+    margin-bottom: 0px;
+}
+
+.form-group p{
+    color: red;
+}
+
+/*Header text customization*/
+.letter-spacing-2 {
+    letter-spacing: 0;
+    font-size: 36px;
+    margin-bottom: 0px !important;
+}
+.text-uppercase {
+    text-transform: capitalize !important;
+}
+.m-5 {
+    margin: 2rem!important;
+}
+
+header h1{
+    font-size: 36px;
+}
+
+#customQuoteRequest:hover{
+    color:white !important;
+}
+
+.market_image img{
+    height: 150px;
+    width: 150px;
+}
+
+.header .navbar-brand img{
+    width: 90px;
+    height: 80px;
+}
+
+#customQuoteRequest:hover{
+    color: #FF6A00 !important;
+    border: 1px solid #FF6A00 !important;
+}
+
+.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dropdown-toggle::after {
+    margin-left: 5px;
+}
