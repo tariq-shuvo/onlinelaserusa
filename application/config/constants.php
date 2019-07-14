@@ -85,24 +85,24 @@ defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automat
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
 //All Custom Global Values
-define('PASSWORD_ENCRYPTION', 'Hello!@#$%$##@!');
-define('NO_REPLAY_EMAIL', 'no-replay@onlinelaserusa.com');
-define('SUPPORT_EMAIL', 'support@onlinelaserusa.com');
-define('ADMIN_EMAIL', 'admin@onlinelaserusa.com');
-define('QUOTE_EMAIL', 'quote@onlinelaserusa.com');
-define('Personal_EMAIL', 'rich@onlinelaserusa.com');
+define('PASSWORD_ENCRYPTION', '');
+define('NO_REPLAY_EMAIL', '');
+define('SUPPORT_EMAIL', '');
+define('ADMIN_EMAIL', '');
+define('QUOTE_EMAIL', '');
+define('Personal_EMAIL', '');
 
 $paypalCredentials=array(
-    'clientID'=>'AbXQDZHXGPQnRtRZT_HgBJMMLBxhwIIqlPuY7SQ3BAK5kOuVVgsfepMlO1XADjMm3e5EpOa7UJ7yeAI-',
-    'clientSecret'=>'EGE56CTOE6QH0wKdpFCD0iYcBAtTB4BAkR-FRg-_NOKy-n7ajm7I-oswgTkc6Nm22kBWURh6U1KHTrVT'
+    'clientID'=>'',
+    'clientSecret'=>''
 );
 
 define('PAYPAL', $paypalCredentials);
 
 $squareupCredentials=array(
-    'access'=>'EAAAEAtkLbQcLgujGJJtYxImt1OC668Rz3ghLhcA0JNsCS6mbHaSeL6jE7w2w66I',
-    'appID'=>'sq0idp-dIvKWuYIV6_AVjOznJN4YA',
-    'location'=>'9EXDJGFQS112A'
+    'access'=>'',
+    'appID'=>'',
+    'location'=>''
 );
 
 define('SQUAREUP', $squareupCredentials);
